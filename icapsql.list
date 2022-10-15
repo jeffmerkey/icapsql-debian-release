@@ -1,0 +1,2 @@
+deb [trusted=yes] http://repo.icapsql.com/public/Debian/11/DEBS /
+deb-src [trusted=yes] http://repo.icapsql.com/public/Debian/11/SDEBS /
