@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 
 Name:           icapsql-debian-release
-Version:        1.0 
+Version:        1.0
 Release:        1
 Summary:        ICAPSQL Debian Linux repository configuration 
 License:        LGPL
@@ -21,7 +21,7 @@ and ICAPSQL Repository configuration for apt and apt-get.
 %install
 # apt
 install -dm 755 %{buildroot}%{_sysconfdir}/apt/sources.list.d/
-install -pm 644 %{SOURCE1} %{buildroot}%{_sysconfdir}/apt/sources.list.d/
+install -pm 644 %{SOURCE0} %{buildroot}%{_sysconfdir}/apt/sources.list.d/
 
 %files
 %config(noreplace) %{_sysconfdir}/apt/sources.list.d/icapsql.list
