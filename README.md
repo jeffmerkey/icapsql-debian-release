@@ -1,5 +1,5 @@
-# icapsql-release
-Leaf Linux ICAPSQL Repositories for the C-ICAP Project (Debian)
+# icapsql-debian-release
+Leaf Linux ICAPSQL Repositories for the C-ICAP Project for Debian Platforms
 
 This package enables Debian apt-get access to the Leaf Linux ICAPSQL online Repositories for the C-ICAP Project. This release provides access to the Debian repository sources and binaries for the C-ICAP Project and ICAPSQL Project for Debian, Ubuntu, and other Debian based distributions.
 
